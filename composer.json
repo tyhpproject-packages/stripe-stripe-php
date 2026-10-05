@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/stripe-stripe-php",
+    "description": "Tyhp type definitions for stripe/stripe-php 21.3.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "21.3.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/stripe-stripe-php-impl": "~21.3.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/stripe-stripe-php-impl"
+        }
+    }
+}
